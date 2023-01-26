@@ -7,8 +7,8 @@ Tecnologias utilizadas para construção do projeto:
 
 <br>
 
-
 Documentação do projeto:
 
-> `https://app.swaggerhub.com/apis-docs/willianbrusch/API_Consult_UF/1.0.0#/`
+
+https://app.swaggerhub.com/apis-docs/willianbrusch/API_Consult_UF/1.0.0#/
 
