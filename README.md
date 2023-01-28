@@ -7,6 +7,41 @@ Tecnologias utilizadas para construção do projeto:
 
 <br>
 
+<h3>1. instalar dependencias</h3>
+
+```
+pip install -r requirements.txt
+
+```
+
+<h3>2. criar .env com as seguintes variáveis
+
+```
+FLASK_DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:12345@localhost:5433/db_consult_uf'
+SQLALCHEMY_TRACK_MODIFICATIONS = 0
+
+```
+<h3>3. iniciar banco</h3>
+
+```
+flask db init
+
+```
+<h3>4. rodar migrations</h3>
+
+```
+flask db migrate
+
+```
+<h3>4. dar update no banco</h3>
+
+```
+flask db upgrade
+
+```
+
+
 Documentação do projeto:
 
 
